@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+/* html, body{
+  height: 100%;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+} */
+
+/* .contain {
+  display: flex;
+  border:1px solid red;
+  height: 100%;
+  align-items: center;
+} */
+
+.svg_class {
+    display: block;
+    font: 5.5em 'Raleway';
+    width: 75%;
+    /* height: 300px; */
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 2px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: white;
+  animation-delay: -1;
+}
+/* #4D163D */
+
+.text-copy:nth-child(2){
+  stroke: white ;
+  animation-delay: -2s;
+}
+/* #840037 */
+
+.text-copy:nth-child(3){
+  stroke: white;
+  animation-delay: -3s;
+}
+/* #BD0034 */
+.text-copy:nth-child(4){
+  stroke: white ;
+  animation-delay: -4s;
+}
+/* #BD0034 */
+
+.text-copy:nth-child(5){
+  stroke: white;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}

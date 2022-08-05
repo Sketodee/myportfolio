@@ -1,4 +1,47 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.font {
+  margin: 0;
+  font-family:Raleway;
+}
+
+.jumbotron-bg {
+  background: linear-gradient(-90deg, #ee7752, #23d5ab, #23a6d5, #7a43b6 , #e73c7e, #ee7752);  /* #e73c7e */
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+.scroll_snap_align {
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll_snap_type {
+  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +78,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
